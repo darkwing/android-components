@@ -265,8 +265,8 @@ open class TabCounter @JvmOverloads constructor(
         internal const val SO_MANY_TABS_OPEN = "∞"
         internal const val DEFAULT_TABS_COUNTER_TEXT = ":)"
 
-        internal const val ONE_DIGIT_SIZE_RATIO = 0.6f
-        internal const val TWO_DIGITS_SIZE_RATIO = 0.5f
+        internal const val ONE_DIGIT_SIZE_RATIO = 0.5f
+        internal const val TWO_DIGITS_SIZE_RATIO = 0.4f
         internal const val TWO_DIGITS_TAB_COUNT_THRESHOLD = 10
 
         // createBoxAnimatorSet

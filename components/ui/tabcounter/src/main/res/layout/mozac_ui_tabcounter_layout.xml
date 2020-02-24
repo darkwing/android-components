@@ -11,16 +11,16 @@
 
     <FrameLayout
         android:id="@+id/counter_root"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="0.5dp">
 
         <ImageView
             android:id="@+id/counter_box"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:importantForAccessibility="no"
             android:src="@drawable/mozac_ui_tabcounter_box" />
 
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textColor="@color/mozac_ui_tabcounter_default_tint"
-            android:textSize="12sp"
+            android:textSize="11sp"
             android:textStyle="bold"
             tools:text="18" />
     </FrameLayout>
